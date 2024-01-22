@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Backend tests",
+      "setup": "",
+      "run": "./gradlew test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Frontend tests",
+      "setup": "",
+      "run": "cd frontend; npm run test:unit; cd ..",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
